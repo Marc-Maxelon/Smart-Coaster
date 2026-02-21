@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-10-27" view-index="1" gantt-divider-location="360" resource-divider-location="407" version="3.3.3316" locale="de_DE">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Vorgang" width="198" order="0"/>
+        <field id="tpd4" name="Anfang" width="84" order="1"/>
+        <field id="tpd5" name="Ende" width="77" order="2"/>
+        <field id="tpd15" name="Notizen" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ff6666 #9999ff #33ffcc #66ff66]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Ressource" width="263" order="0"/>
+        <field id="1" name="Rolle" width="140" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="3cf272b3e5c44069bf1e5330f56764d8" name="Konzeptfindung" color="#ff6666" meeting="false" start="2025-10-25" duration="7" complete="0" expand="true"/>
+        <task id="1" uid="fe0fc5bb85014bac9d71121c4d2dd0d6" name="Code schreiben" color="#9999ff" meeting="false" start="2025-11-01" duration="53" complete="0" priority="2" expand="true">
+            <task id="12" uid="9d066587bcd0489094eeab5f9efd6907" name="ESP32 MQTT" color="#9999ff" meeting="false" start="2025-11-01" duration="15" complete="0" expand="true"/>
+            <task id="13" uid="7f49f8f7a2cf495fb09e6b0158818078" name="ESP32 Waage kallibrieren" color="#9999ff" meeting="false" start="2025-11-09" duration="15" complete="0" expand="true"/>
+            <task id="14" uid="001c9b52b3834498806c97362e3806cb" name="MQTT Broker" color="#9999ff" meeting="false" start="2025-11-01" duration="29" complete="0" expand="true"/>
+            <task id="15" uid="bdffaff7572047e58fd46ac3f3cd7590" name="Datenbank" color="#9999ff" meeting="false" start="2025-11-30" duration="15" complete="0" expand="true"/>
+            <task id="16" uid="5739a386ef524c36b04fa0f631e560ff" name="Daten Visualisieren" color="#9999ff" meeting="false" start="2025-12-10" duration="14" complete="0" expand="true"/>
+        </task>
+        <task id="10" uid="163528d3e5554e05ac3ca0d58f9db37d" name="Prototyp" color="#66ff66" meeting="false" start="2025-11-01" duration="69" complete="0" priority="2" expand="true">
+            <task id="11" uid="1892b965e1ef47abbc0e04602a8a2c15" name="Einkauf" color="#66ff66" meeting="false" start="2025-11-01" duration="15" complete="0" expand="true"/>
+            <task id="7" uid="c572c4a95e3040c3a83f07ccc85ad424" name="3D Modell erstellen" color="#66ff66" meeting="false" start="2025-11-08" duration="12" complete="0" expand="true"/>
+            <task id="3" uid="2ea35a76ee414231b411df38c352951b" name="3D Drucken" color="#66ff66" meeting="false" start="2025-11-20" duration="21" complete="0" expand="true"/>
+            <task id="4" uid="38c816ac69094894a48701b41b2be0ee" name="Hardware Prototyp erstellen" color="#66ff66" meeting="false" start="2025-12-11" duration="29" complete="0" expand="true"/>
+        </task>
+        <task id="5" uid="710531e43a5e4f54be0c2d18214dc01f" name="Dokumentation erstellen" color="#33ffcc" meeting="false" start="2025-11-14" duration="57" complete="0" expand="true"/>
+        <task id="8" uid="811876afcd4f4a0cbcd7d5eb91821414" name="Präsentation erstellem" color="#33ffcc" meeting="false" start="2026-01-09" duration="7" complete="0" expand="true"/>
+        <task id="6" uid="3e2493e91c5646e7a6647d5cc74786d0" name="Abgabe" color="#ff6666" meeting="false" start="2026-01-16" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Bünyamin Budak" function="5" contacts="" phone=""/>
+        <resource id="1" name="Maxim Speczyk" function="1" contacts="" phone=""/>
+        <resource id="2" name="Marc Maxelon" function="4" contacts="" phone=""/>
+        <resource id="3" name="Clemens Birnes" function="2" contacts="" phone=""/>
+        <resource id="4" name="Cecilia Koehn" function="3" contacts="" phone=""/>
+        <resource id="5" name="Marouane Grar" function="6" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Projektmanager &amp; Software Developer"/>
+        <role id="2" name="Hardware Lead"/>
+        <role id="3" name="Marketing Lead &amp; Hardware Engineer"/>
+        <role id="4" name="Quality Assurance &amp; Dokumentation"/>
+        <role id="5" name="Software Developer"/>
+        <role id="6" name="System Integrator &amp; Dokumentation"/>
+    </roles>
+</project>
