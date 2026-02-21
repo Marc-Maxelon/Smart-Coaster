@@ -34,7 +34,7 @@ The system is built on a robust, interdisciplinary stack that combines precise s
 * **Real-time Dashboard:** A GUI displays the exact milliliter fill level and triggers an "Empty Warning" when the level drops below 10%.
 * **Automatic Calibration:** The system features an interactive startup calibration to ensure high measurement accuracy.
 
-![Marketing Poster](Plakat_Smarter_Getra╠ênkeuntersetzer.jpg)
+![Marketing Poster](Plakat_Smarter_Getra╠ênkeuntersetzer.png)
 *Figure 2: The Smart Coaster concept: "Smarter Service begins on the table".*
 
 ---
